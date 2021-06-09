@@ -14,7 +14,7 @@
 	<groupId>com.microservices.demo</groupId>
 	<artifactId>microservices-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>microservices-demo</name>
+	<name>microservices-kafka</name>
 	<description>Microservices demo project for Spring Boot</description>
 	<packaging>pom</packaging>
 
