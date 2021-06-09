@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be73daa6-006d-4ed4-b3cd-3437a1281f21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/resources/twitter4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/listener/TwitterKafkaStatusListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/runner/StreamRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/runner/impl/TwitterKafkaStreamRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +17,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,7 +71,12 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.microservices.demo.twitter.to.kafka.service" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="TwitterToKafkaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -82,11 +95,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623268115574</updated>
-      <workItem from="1623268120119" duration="509000" />
+      <workItem from="1623268120119" duration="1020000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
