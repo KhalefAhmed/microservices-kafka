@@ -1,6 +1,39 @@
-2021-06-09 23:14:59 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on MacBook-Air-de-Ahmed.local with PID 44171 (/Users/ahmedkhalilkhalef/Desktop/microservices-kafka/twitter-to-kafka-service/target/classes started by ahmedkhalilkhalef in /Users/ahmedkhalilkhalef/Desktop/microservices-kafka)
-2021-06-09 23:14:59 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
-2021-06-09 23:15:00 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 2.788 seconds (JVM running for 6.105)
-2021-06-09 23:15:00 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
-2021-06-09 23:15:00 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
-2021-06-09 23:15:00 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservices!
+2021-06-10 23:07:46 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on MacBook-Air-de-Ahmed.local with PID 49456 (/Users/ahmedkhalilkhalef/Desktop/microservices-kafka/twitter-to-kafka-service/target/classes started by ahmedkhalilkhalef in /Users/ahmedkhalilkhalef/Desktop/microservices-kafka)
+2021-06-10 23:07:46 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-06-10 23:07:47 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2021-06-10 23:07:47 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-06-10 23:07:48 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication required a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner' in your configuration.
+
+2021-06-10 23:11:54 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on MacBook-Air-de-Ahmed.local with PID 49590 (/Users/ahmedkhalilkhalef/Desktop/microservices-kafka/twitter-to-kafka-service/target/classes started by ahmedkhalilkhalef in /Users/ahmedkhalilkhalef/Desktop/microservices-kafka)
+2021-06-10 23:11:54 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-06-10 23:25:43 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on MacBook-Air-de-Ahmed.local with PID 49752 (/Users/ahmedkhalilkhalef/Desktop/microservices-kafka/twitter-to-kafka-service/target/classes started by ahmedkhalilkhalef in /Users/ahmedkhalilkhalef/Desktop/microservices-kafka)
+2021-06-10 23:25:43 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-06-10 23:25:44 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 2.063 seconds (JVM running for 3.913)
+2021-06-10 23:25:44 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-06-10 23:25:44 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2021-06-10 23:25:44 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2021-06-10 23:25:44 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Kafka, Elasticsearch]
+2021-06-10 23:25:58 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2021-06-10 23:25:58 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2021-06-10 23:25:58 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @javacodegeeks: Password Encoder Migration with #Spring #Security 5 | #Java Code Geeks - 2021 https://t.co/dzRlFTvHYC
+2021-06-10 23:26:00 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @bbolkonsky Kafka on the shore foi citado em uma musica do bts...
+2021-06-10 23:26:05 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @___lilty Hello, css or java ?
+2021-06-10 23:26:09 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @alexgregorie yes! just plain ol java mode processing https://t.co/oANo2R7vku
+2021-06-10 23:26:15 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Lays24MC: Mein "Datencenter" im Aufbau. Mehr wie genug Platz für Refined Storage Drives / Autocrafting und Industrial Foregoing Hole Un…
+2021-06-10 23:26:24 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @___lilty Html,  css or java? Or php?
+2021-06-10 23:26:27 [SpringContextShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter stream !

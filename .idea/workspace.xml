@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be73daa6-006d-4ed4-b3cd-3437a1281f21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kafka/kafka-model/src/main/resources/avro/twitter.avsc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kafka/kafka-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/kafka-model/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/logs/twitter-to-kafka-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/logs/twitter-to-kafka-service.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/TwitterToKafkaServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/TwitterToKafkaServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/runner/StreamRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/runner/StreamRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/runner/impl/TwitterKafkaStreamRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/runner/impl/TwitterKafkaStreamRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/resources/twitter4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/resources/twitter4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/target/classes/com/microservices/demo/twitter/to/kafka/service/TwitterToKafkaServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/target/classes/com/microservices/demo/twitter/to/kafka/service/TwitterToKafkaServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/target/classes/com/microservices/demo/twitter/to/kafka/service/config/TwitterToKafkaServiceConfigData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/target/classes/com/microservices/demo/twitter/to/kafka/service/runner/impl/TwitterKafkaStreamRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/target/classes/com/microservices/demo/twitter/to/kafka/service/runner/impl/TwitterKafkaStreamRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/target/classes/twitter4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/target/classes/twitter4j.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +84,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="spring.boot" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -119,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1623268115574</updated>
       <workItem from="1623268120119" duration="4303000" />
-      <workItem from="1623353243411" duration="1761000" />
+      <workItem from="1623353243411" duration="3406000" />
     </task>
     <servers />
   </component>

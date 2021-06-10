@@ -20,9 +20,10 @@ public class TwitterToKafkaServiceApplication implements CommandLineRunner {
 
     private final StreamRunner streamRunner;
 
-    public TwitterToKafkaServiceApplication(TwitterToKafkaServiceConfigData configData, StreamRunner streamRunner) {
+    public TwitterToKafkaServiceApplication(TwitterToKafkaServiceConfigData configData,
+                                            StreamRunner runner) {
         this.twitterToKafkaServiceConfigData = configData;
-        this.streamRunner = streamRunner;
+        this.streamRunner = runner;
     }
 
     public static void main(String[] args) {
