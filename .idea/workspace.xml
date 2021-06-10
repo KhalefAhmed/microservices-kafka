@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be73daa6-006d-4ed4-b3cd-3437a1281f21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-config-data/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/TwitterToKafkaServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/TwitterToKafkaServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/config/TwitterToKafkaServiceConfigData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-config-data/src/main/java/com/microservices/demo/config/TwitterToKafkaServiceConfigData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/runner/impl/TwitterKafkaStreamRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/runner/impl/TwitterKafkaStreamRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/twitter-to-kafka-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/twitter-to-kafka-service.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +66,7 @@
   <component name="ProjectId" id="1tj2JE6Jm2VxbNksOjk44lnP4Y8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -73,6 +84,9 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.microservices.demo.twitter.to.kafka.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.microservices.demo.config" />
     </key>
   </component>
   <component name="RunManager">
@@ -103,7 +117,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623268115574</updated>
-      <workItem from="1623268120119" duration="2078000" />
+      <workItem from="1623268120119" duration="3818000" />
     </task>
     <servers />
   </component>
