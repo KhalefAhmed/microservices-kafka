@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be73daa6-006d-4ed4-b3cd-3437a1281f21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app-config-data/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose/common.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose/kafka_cluster.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/TwitterToKafkaServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/TwitterToKafkaServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/config/TwitterToKafkaServiceConfigData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-config-data/src/main/java/com/microservices/demo/config/TwitterToKafkaServiceConfigData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/runner/impl/TwitterKafkaStreamRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/runner/impl/TwitterKafkaStreamRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/twitter-to-kafka-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/twitter-to-kafka-service.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +64,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -90,17 +87,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TwitterToKafkaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="twitter-to-kafka-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication" />
@@ -117,7 +103,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623268115574</updated>
-      <workItem from="1623268120119" duration="3818000" />
+      <workItem from="1623268120119" duration="4303000" />
+      <workItem from="1623353243411" duration="450000" />
     </task>
     <servers />
   </component>
