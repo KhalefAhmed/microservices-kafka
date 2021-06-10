@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app-config-data/app-config-data.iml" filepath="$PROJECT_DIR$/app-config-data/app-config-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-config/common-config.iml" filepath="$PROJECT_DIR$/common-config/common-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/kafka/kafka.iml" filepath="$PROJECT_DIR$/kafka/kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/kafka/kafka-admin/kafka-admin.iml" filepath="$PROJECT_DIR$/kafka/kafka-admin/kafka-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/kafka/kafka-model/kafka-model.iml" filepath="$PROJECT_DIR$/kafka/kafka-model/kafka-model.iml" />
