@@ -16,10 +16,10 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="app-config-data" target="11" />
-      <module name="kafka" target="13" />
-      <module name="kafka-admin" target="13" />
-      <module name="kafka-model" target="13" />
-      <module name="kafka-producer" target="13" />
+      <module name="kafka" target="11" />
+      <module name="kafka-admin" target="11" />
+      <module name="kafka-model" target="11" />
+      <module name="kafka-producer" target="11" />
       <module name="microservices-demo" target="11" />
       <module name="twitter-to-kafka-service" target="11" />
     </bytecodeTargetLevel>
