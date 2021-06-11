@@ -6,6 +6,9 @@ import org.apache.avro.specific.SpecificRecordBase;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.kafka.core.DefaultKafkaProducerFactory;
+import org.springframework.kafka.core.KafkaTemplate;
+import org.springframework.kafka.core.ProducerFactory;
 
 import java.io.Serializable;
 import java.util.HashMap;
@@ -37,5 +40,15 @@ public class KafkaProducerConfig  <K extends Serializable,V extends SpecificReco
         props.put(ProducerConfig.REQUEST_TIMEOUT_MS_CONFIG, kafkaProducerConfigData.getRequestTimeoutMs());
         props.put(ProducerConfig.RETRIES_CONFIG, kafkaProducerConfigData.getRetryCount());
         return props;
+    }
+
+    @Bean
+    public ProducerFactory<K, V> producerFactory() {
+        return new DefaultKafkaProducerFactory<>(producerConfig());
+    }
+
+    @Bean
+    public KafkaTemplate<K, V> kafkaTemplate() {
+        return new KafkaTemplate<>(producerFactory());
     }
 }
