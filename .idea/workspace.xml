@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be73daa6-006d-4ed4-b3cd-3437a1281f21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kafka/kafka-admin/src/main/java/com/microservices/demo/kafka/admin/client/KafkaAdminClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka/kafka-admin/src/main/java/com/microservices/demo/kafka/admin/config/WebClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-config-data/src/main/java/com/microservices/demo/config/KafkaProducerConfigData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka/kafka-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/kafka-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka/kafka-admin/src/main/java/com/microservices/demo/kafka/admin/config/client/KafkaAdminClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka/kafka-admin/src/main/java/com/microservices/demo/kafka/admin/config/exception/KafkaClientException.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/kafka-admin/src/main/java/com/microservices/demo/kafka/admin/exception/KafkaClientException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka/kafka-producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/kafka-producer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,19 +89,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TwitterToKafkaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="twitter-to-kafka-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication" />
@@ -119,7 +106,8 @@
       <option name="presentableId" value="Default" />
       <updated>1623268115574</updated>
       <workItem from="1623268120119" duration="4303000" />
-      <workItem from="1623353243411" duration="10140000" />
+      <workItem from="1623353243411" duration="10473000" />
+      <workItem from="1623451880278" duration="203000" />
     </task>
     <servers />
   </component>
