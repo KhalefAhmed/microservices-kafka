@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be73daa6-006d-4ed4-b3cd-3437a1281f21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/init/StreamInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/init/impl/KafkaStreamInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/transformer/TwitterStatusToAvroTransformer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/TwitterToKafkaServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/TwitterToKafkaServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/listener/TwitterKafkaStatusListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/listener/TwitterKafkaStatusListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/twitter-to-kafka-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/twitter-to-kafka-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/.env" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/common.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/common.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/kafka_cluster.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/kafka_cluster.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +89,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwitterToKafkaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="twitter-to-kafka-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication" />
@@ -112,7 +119,8 @@
       <workItem from="1623268120119" duration="4303000" />
       <workItem from="1623353243411" duration="10473000" />
       <workItem from="1623451880278" duration="2725000" />
-      <workItem from="1623459173458" duration="513000" />
+      <workItem from="1623459173458" duration="658000" />
+      <workItem from="1623534009798" duration="813000" />
     </task>
     <servers />
   </component>

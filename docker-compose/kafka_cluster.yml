@@ -78,4 +78,4 @@ services:
       KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
       KAFKA_COMPRESSION_TYPE: producer
     networks:
-      - ${GLOBAL_NETWORK:-kafka}t
+      - ${GLOBAL_NETWORK:-kafka}
