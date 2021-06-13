@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be73daa6-006d-4ed4-b3cd-3437a1281f21" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/logs/twitter-to-kafka-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/logs/twitter-to-kafka-service.log" afterDir="false" />
-    </list>
+    <list default="true" id="be73daa6-006d-4ed4-b3cd-3437a1281f21" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,6 +112,7 @@
       <workItem from="1623547386491" duration="254000" />
       <workItem from="1623547746129" duration="574000" />
       <workItem from="1623548648702" duration="320000" />
+      <workItem from="1623581987713" duration="303000" />
     </task>
     <servers />
   </component>
