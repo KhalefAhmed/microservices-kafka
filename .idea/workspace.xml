@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be73daa6-006d-4ed4-b3cd-3437a1281f21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config-server-repository/config-client-twitter_to_kafka.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server-repository/config-client.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/services.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +117,7 @@
       <workItem from="1623547386491" duration="254000" />
       <workItem from="1623547746129" duration="574000" />
       <workItem from="1623548648702" duration="320000" />
-      <workItem from="1623581987713" duration="687000" />
+      <workItem from="1623581987713" duration="963000" />
     </task>
     <servers />
   </component>
