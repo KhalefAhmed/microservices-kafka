@@ -5,10 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be73daa6-006d-4ed4-b3cd-3437a1281f21" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/.env" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/common.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/common.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/kafka_cluster.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/kafka_cluster.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-config-data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-config-data/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-config-data/src/main/java/com/microservices/demo/config/KafkaProducerConfigData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-config-data/src/main/java/com/microservices/demo/config/KafkaProducerConfigData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-config-data/src/main/java/com/microservices/demo/config/RetryConfigData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-config-data/src/main/java/com/microservices/demo/config/RetryConfigData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-config-data/src/main/java/com/microservices/demo/config/TwitterToKafkaServiceConfigData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-config-data/src/main/java/com/microservices/demo/config/TwitterToKafkaServiceConfigData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-config/src/main/java/com/microservices/demo/common/config/RetryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-config/src/main/java/com/microservices/demo/common/config/RetryConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka/kafka-admin/src/main/java/com/microservices/demo/kafka/admin/client/KafkaAdminClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/kafka-admin/src/main/java/com/microservices/demo/kafka/admin/client/KafkaAdminClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka/kafka-admin/src/main/java/com/microservices/demo/kafka/admin/config/KafkaAdminConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/kafka-admin/src/main/java/com/microservices/demo/kafka/admin/config/KafkaAdminConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka/kafka-admin/src/main/java/com/microservices/demo/kafka/admin/config/WebClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/kafka-admin/src/main/java/com/microservices/demo/kafka/admin/config/WebClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka/kafka-admin/src/main/java/com/microservices/demo/kafka/admin/exception/KafkaClientException.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/kafka-admin/src/main/java/com/microservices/demo/kafka/admin/exception/KafkaClientException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka/kafka-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/kafka-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka/kafka-producer/src/main/java/com/microservices/demo/kafka/producer/config/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/kafka-producer/src/main/java/com/microservices/demo/kafka/producer/config/KafkaProducerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka/kafka-producer/src/main/java/com/microservices/demo/kafka/producer/config/service/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/kafka-producer/src/main/java/com/microservices/demo/kafka/producer/config/service/KafkaProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka/kafka-producer/src/main/java/com/microservices/demo/kafka/producer/config/service/impl/TwitterKafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/kafka-producer/src/main/java/com/microservices/demo/kafka/producer/config/service/impl/TwitterKafkaProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/logs/archived/twitter-to-kafka-service-log.2021-06-09.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/logs/twitter-to-kafka-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/logs/twitter-to-kafka-service.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/runner/impl/TwitterKafkaStreamRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/java/com/microservices/demo/twitter/to/kafka/service/runner/impl/TwitterKafkaStreamRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/resources/twitter4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/src/main/resources/twitter4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/target/classes/com/microservices/demo/twitter/to/kafka/service/TwitterToKafkaServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/target/classes/com/microservices/demo/twitter/to/kafka/service/TwitterToKafkaServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/target/classes/com/microservices/demo/twitter/to/kafka/service/listener/TwitterKafkaStatusListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/target/classes/com/microservices/demo/twitter/to/kafka/service/listener/TwitterKafkaStatusListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/target/classes/com/microservices/demo/twitter/to/kafka/service/runner/impl/TwitterKafkaStreamRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/target/classes/com/microservices/demo/twitter/to/kafka/service/runner/impl/TwitterKafkaStreamRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/target/classes/twitter4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/target/classes/twitter4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/twitter-to-kafka-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/twitter-to-kafka-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/twitter-to-kafka-service/logs/twitter-to-kafka-service.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +98,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/twitter-to-kafka-service" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -79,6 +106,9 @@
     <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/twitter-to-kafka-service" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.microservices.demo.twitter.to.kafka.service" />
     </key>
@@ -89,17 +119,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TwitterToKafkaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="twitter-to-kafka-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication" />
@@ -121,6 +140,8 @@
       <workItem from="1623451880278" duration="2725000" />
       <workItem from="1623459173458" duration="658000" />
       <workItem from="1623534009798" duration="813000" />
+      <workItem from="1623547386491" duration="254000" />
+      <workItem from="1623547746129" duration="574000" />
     </task>
     <servers />
   </component>

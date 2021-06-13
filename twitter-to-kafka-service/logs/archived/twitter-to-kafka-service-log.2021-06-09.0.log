@@ -1,6 +1,0 @@
-2021-06-09 23:14:59 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication on MacBook-Air-de-Ahmed.local with PID 44171 (/Users/ahmedkhalilkhalef/Desktop/microservices-kafka/twitter-to-kafka-service/target/classes started by ahmedkhalilkhalef in /Users/ahmedkhalilkhalef/Desktop/microservices-kafka)
-2021-06-09 23:14:59 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
-2021-06-09 23:15:00 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 2.788 seconds (JVM running for 6.105)
-2021-06-09 23:15:00 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
-2021-06-09 23:15:00 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
-2021-06-09 23:15:00 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservices!
