@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="kafka-admin" />
+        <module name="config-server" />
         <module name="app-config-data" />
         <module name="kafka-model" />
         <module name="kafka-producer" />
@@ -19,6 +20,7 @@
     <bytecodeTargetLevel>
       <module name="app-config-data" target="11" />
       <module name="common-config" target="11" />
+      <module name="config-server" target="11" />
       <module name="kafka" target="11" />
       <module name="kafka-admin" target="11" />
       <module name="kafka-model" target="11" />
@@ -31,6 +33,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="app-config-data" options="-parameters" />
       <module name="common-config" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="kafka" options="-parameters" />
       <module name="kafka-admin" options="-parameters" />
       <module name="kafka-model" options="-parameters" />
