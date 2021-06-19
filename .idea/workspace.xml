@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be73daa6-006d-4ed4-b3cd-3437a1281f21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config-server-repository/config-client-twitter_to_kafka.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server-repository/config-client.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-config-data/src/main/resources/logback-common.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,6 +92,19 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwitterToKafkaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="twitter-to-kafka-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication" />
@@ -117,7 +129,9 @@
       <workItem from="1623547386491" duration="254000" />
       <workItem from="1623547746129" duration="574000" />
       <workItem from="1623548648702" duration="320000" />
-      <workItem from="1623581987713" duration="963000" />
+      <workItem from="1623581987713" duration="1307000" />
+      <workItem from="1623691899276" duration="1382000" />
+      <workItem from="1624137744029" duration="190000" />
     </task>
     <servers />
   </component>
