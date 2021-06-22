@@ -7,13 +7,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="kafka-admin" />
-        <module name="config-server" />
-        <module name="app-config-data" />
-        <module name="kafka-model" />
-        <module name="kafka-producer" />
-        <module name="kafka" />
-        <module name="common-config" />
         <module name="twitter-to-kafka-service" />
       </profile>
     </annotationProcessing>
