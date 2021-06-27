@@ -17,11 +17,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="app-config-data" />
-    <orderEntry type="module" module-name="kafka-admin" />
-    <orderEntry type="module" module-name="common-config" />
-    <orderEntry type="module" module-name="kafka-producer" />
-    <orderEntry type="module" module-name="kafka-model" />
-    <orderEntry type="module" module-name="app-config-data" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.3.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.2.9.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.2.9.RELEASE" level="project" />

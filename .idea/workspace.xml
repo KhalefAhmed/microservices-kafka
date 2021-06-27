@@ -7,6 +7,7 @@
     <list default="true" id="be73daa6-006d-4ed4-b3cd-3437a1281f21" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter-to-kafka-service/twitter-to-kafka-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/twitter-to-kafka-service/twitter-to-kafka-service.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +121,8 @@
       <workItem from="1623691899276" duration="1382000" />
       <workItem from="1624137744029" duration="900000" />
       <workItem from="1624379173422" duration="689000" />
-      <workItem from="1624483758067" duration="84000" />
+      <workItem from="1624483758067" duration="160000" />
+      <workItem from="1624825011882" duration="381000" />
     </task>
     <servers />
   </component>
