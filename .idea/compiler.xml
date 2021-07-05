@@ -15,6 +15,7 @@
         <module name="kafka" />
         <module name="common-config" />
         <module name="twitter-to-kafka-service" />
+        <module name="kafka-to-elastic-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,6 +26,7 @@
       <module name="kafka-admin" target="11" />
       <module name="kafka-model" target="11" />
       <module name="kafka-producer" target="11" />
+      <module name="kafka-to-elastic-service" target="11" />
       <module name="microservices-demo" target="11" />
       <module name="twitter-to-kafka-service" target="11" />
     </bytecodeTargetLevel>
@@ -38,6 +40,7 @@
       <module name="kafka-admin" options="-parameters" />
       <module name="kafka-model" options="-parameters" />
       <module name="kafka-producer" options="-parameters" />
+      <module name="kafka-to-elastic-service" options="-parameters" />
       <module name="twitter-to-kafka-service" options="-parameters" />
     </option>
   </component>

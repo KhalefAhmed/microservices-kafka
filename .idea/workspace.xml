@@ -88,7 +88,14 @@
       <recent name="com.microservices.demo.config" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.TwitterToKafkaServiceApplication">
+    <configuration name="KafkaToElasticServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kafka-to-elastic-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservices.demo.kafka.to.elastic.service.KafkaToElasticServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwitterToKafkaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="twitter-to-kafka-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication" />
