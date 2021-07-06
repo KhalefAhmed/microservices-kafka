@@ -67,7 +67,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -76,6 +76,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/elastic-query-service/src/main/java/com/microservices/demo/elastic/query/service" />
       <recent name="$PROJECT_DIR$/docker-compose" />
       <recent name="$PROJECT_DIR$/twitter-to-kafka-service" />
     </key>
@@ -126,6 +127,7 @@
       <workItem from="1624379173422" duration="689000" />
       <workItem from="1624483758067" duration="160000" />
       <workItem from="1624825011882" duration="738000" />
+      <workItem from="1625521505851" duration="141000" />
     </task>
     <servers />
   </component>
